@@ -9,6 +9,6 @@ int main(void) {
     if(i % 3 == 0 && i % 5 == 0) { printf("FizzBuzz!\n"); }
     if(i % 3 == 0) { printf("Fizz!\n"); } //% is the modulo function, it gets the reminder of a division.  Eg: if the remainder of i/3 = 0, then i is divisible by 3.
     if(i % 5 == 0) { printf("Buzz!\n"); }
-    if(i % 3 != 0 && i % 5 != 0) { printf(i); }
+    if(i % 3 != 0 && i % 5 != 0) { printf("%d\n", i); }
   }
 }
